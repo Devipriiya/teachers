@@ -1,0 +1,20 @@
+{
+  "name": "school",
+  "version": "1.0.0",
+  "description": "",
+  "main": "teachers.js",
+ "type": "module",
+  "scripts": {
+    "start": "node teachers.js",
+    "dev": "nodemon teachers.js"
+  },
+  "author": "devipriya",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "googleapis": "^111.0.0",
+    "mongoose": "^6.9.1",
+    "nodemon": "^2.0.20"
+  }
+}
